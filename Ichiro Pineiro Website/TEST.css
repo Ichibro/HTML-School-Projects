@@ -1,0 +1,19 @@
+#div {
+  width: 600px;
+  height: 260px;
+   background-image:url("Mega-Man.jpg");
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   { background-image:url("Mega-Man.jpg"); left:0px; top:0px;}
+  25%  { background-image:url("Mega-Man.jpg"); left:200px; top:0px;}
+  50%  { background-image:url("Mega-Man.jpg"); left:200px; top:200px;}
+  75%  { background-image:url("Mega-Man.jpg"); left:0px; top:200px;}
+  100% { background-image:url("Mega-Man.jpg"); left:0px; top:0px;}
+}

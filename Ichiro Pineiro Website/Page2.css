@@ -1,0 +1,114 @@
+#background{
+	margin:auto; border:10px dashed gold; background-color:blue; width:780px; height:600px;
+}
+
+#left{
+	border:10px outset red; width:300px; height:590px; float:left;
+
+}
+
+#right{
+	border:10px outset red; width:300px; height:590px; float:right;
+}
+
+#leftimage{
+		position:absolute;
+		border:10px outset lightblue; width:280px; height:190px; 
+	     background-image:url("Guitar.gif");
+		font-size:100;
+		background-repeat:no-repeat;
+		
+	background-size:100%;
+}
+
+#rightimage{
+		position:absolute;
+		border:10px outset lightblue; width:280px; height:190px; 
+	     background-image:url("teleport.gif");
+		font-size:100;
+		background-repeat:no-repeat;
+
+		background-size:100%;
+}
+#header{
+		margin-left:auto;
+		margin-right:auto;
+		border:10px outset blue; width:700px; height:190px; 
+	     background-image:url("Megaman.png");
+		font-size:100;
+}
+
+#leftp{
+	margin:auto; border:10px dashed gold;	
+}
+
+#rightp{
+	margin:auto; border:10px dashed gold;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	background-image:url("Background.gif");
+	   background-size:auto;
+	}
+
+#nav {
+    position: center;
+    left: 0px;
+    height: 30px;
+    background-color: #2C64B4;
+    width: 30%;
+    margin: 0 auto;
+	 border:10px dashed gold;	
+	 
+    }   
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  border:10px outset red;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #111;
+}
+
+#div {
+       float:left;
+		border:10px outset red; width:270px; height:90px; 
+	  	font-size:100;
+		background-repeat:no-repeat;
+		background-size:100%;
+   background-image:url("Nintendo.png");
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   { background-image:url("Nintendo.png"); left:0px; top:0px;}
+  25%  { background-image:url("Nintendo.png"); left:200px; top:0px;}
+  50%  { background-image:url("Nintendo.png"); left:200px; top:200px;}
+  75%  { background-image:url("Nintendo.png"); left:0px; top:200px;}
+  100% { background-image:url("Nintendo.png"); left:0px; top:0px;}
+}
+
